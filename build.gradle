@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+	mavenCentral()
+}
+
+jar {
+	from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+	manifest {
+		attributes 'Main-Class': 'com.philipwhitt.phidget.StrengthTest'
+	}
+}
+
+dependencies {
+	compile files('/Library/Java/Extensions/phidget21.jar')
+}
+
+task(run, dependsOn: 'classes', type: JavaExec) {
+	main = 'com.philipwhitt.phidget.StrengthTest'
+	classpath = sourceSets.main.runtimeClasspath
+}
