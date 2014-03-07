@@ -16,7 +16,7 @@ Phidgets Required:
 - Force Sensor: http://www.phidgets.com/products.php?category=33&product_id=1106_0
 
 Optional:
-- Tiny breadboard: http://www.adafruit.com/products/64\
+- Tiny breadboard: http://www.adafruit.com/products/64
 
 Phidgets Configuration
 ----------------------
