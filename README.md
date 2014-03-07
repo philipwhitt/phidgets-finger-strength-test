@@ -8,8 +8,7 @@ A simple finger strength test, similar to the carnival strength test (high strik
 Setup
 -----
 
-Install the Java build tool, gradle
-http://www.gradle.org/installation
+Install gradle http://www.gradle.org/installation
 
 Phidgets Required:
 - Interface Kit: http://www.phidgets.com/products.php?category=0&product_id=1018_2
