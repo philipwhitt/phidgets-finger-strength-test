@@ -15,10 +15,13 @@ Phidgets Required:
 - LEDs: http://www.phidgets.com/products.php?category=26&product_id=3600_0
 - Force Sensor: http://www.phidgets.com/products.php?category=33&product_id=1106_0
 
+Optional:
+- Tiny breadboard: http://www.adafruit.com/products/64\
+
 Phidgets Configuration
 ----------------------
 
-Add an LEDs into output 0-5. You can use a bread board to ground multiple LEDs. Plug the force sensor into sensor input 0.
+Add LEDs into output 0-5. A bread board may be necessary to ground multiple I/O with phidgets. Plug the force sensor into sensor input 0.
 
 Run the Program
 ---------------
