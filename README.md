@@ -8,6 +8,9 @@ A simple finger strength test, similar to the carnival strength test (high strik
 Setup
 -----
 
+Install Phidgets on your OS. For help installing Phidgets on a Raspberry Pi, check out this blog post: 
+http://www.philipwhitt.com/blog/2014/02/how-to-install-phidgets-on-a-raspberry-pi/30
+
 Install gradle http://www.gradle.org/installation
 
 Phidgets Required:
